@@ -6264,7 +6264,9 @@ h6.post-title {
   transform: translate(0, 0);
 }
 .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-top .mobile-header-logo a {
-  display: block;
+  display: flex;
+  align-items: center;
+  width: 50px;
 }
 .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-content-area .mobile-menu-wrap nav {
   height: 100%;
