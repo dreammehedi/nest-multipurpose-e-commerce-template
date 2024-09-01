@@ -1713,7 +1713,8 @@ input.qty-val {
   transform: translateY(-50%);
 }
 .hero-slider-1 .slider-content p {
-  font-size: 30px;
+  font-size: 25px;
+  color: #3e5379;
 }
 .hero-slider-1 .slider-content form {
   background-color: #fff;
@@ -1760,6 +1761,27 @@ input.qty-val {
 }
 .hero-slider-1.style-5 .single-hero-slider {
   border-radius: 10px;
+}
+
+.slider-cta {
+  display: inline-block;
+  background-color: #22c3e6;
+  color: #ffffff;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid transparent;
+  transition: all 0.5s ease-in;
+  cursor: pointer;
+}
+.slider-cta:hover {
+  background-color: transparent;
+  border: 1px solid #22c3e6;
+  color: #22c3e6;
 }
 
 .dot-style-1 ul {
@@ -10615,12 +10637,16 @@ footer .hotline img {
     height: 350px;
   }
   .hero-slider-1 .single-hero-slider .display-2 {
-    font-size: 46px;
+    font-size: 40px;
     margin-bottom: 25px !important;
   }
   .hero-slider-1 .single-hero-slider .slider-content p {
-    font-size: 22px;
+    font-size: 18px;
     margin-bottom: 40px !important;
+  }
+  .slider-cta {
+    font-size: 14px;
+    padding: 10px 1.2rem;
   }
   .banner-img .banner-text h4 {
     min-height: 50px;

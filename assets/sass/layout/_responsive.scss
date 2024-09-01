@@ -773,13 +773,17 @@
   .hero-slider-1 .single-hero-slider {
     height: 350px;
     .display-2 {
-      font-size: 46px;
+      font-size: 40px;
       margin-bottom: 25px !important;
     }
     .slider-content p {
-      font-size: 22px;
+      font-size: 18px;
       margin-bottom: 40px !important;
     }
+  }
+  .slider-cta {
+    font-size: 14px;
+    padding: 10px 1.2rem;
   }
   .banner-img .banner-text h4 {
     min-height: 50px;
