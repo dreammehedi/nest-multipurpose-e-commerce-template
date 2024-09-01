@@ -73,6 +73,9 @@
     span {
       color: $color-grey-4;
     }
+    h2 {
+      color: white;
+    }
     h4 {
       font-weight: 700;
       margin-bottom: 15px;
@@ -97,7 +100,7 @@
     border-radius: 15px;
     overflow: hidden;
     height: 520px;
-    background: url(../imgs/banner/banner-4.png) no-repeat center bottom;
+    background: url(../imgs/banner/banner-4.jpg) no-repeat center bottom;
     background-size: cover;
     width: 100%;
     .banner-text {

@@ -3089,6 +3089,9 @@ table .product-thumbnail img {
 .banner-img .banner-text span {
   color: #adadad;
 }
+.banner-img .banner-text h2 {
+  color: white;
+}
 .banner-img .banner-text h4 {
   font-weight: 700;
   margin-bottom: 15px;
@@ -3110,7 +3113,7 @@ table .product-thumbnail img {
   border-radius: 15px;
   overflow: hidden;
   height: 520px;
-  background: url(../imgs/banner/banner-4.png) no-repeat center bottom;
+  background: url(../imgs/banner/banner-4.jpg) no-repeat center bottom;
   background-size: cover;
   width: 100%;
 }
