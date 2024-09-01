@@ -196,20 +196,21 @@
 .logo {
   a {
     display: flex;
+    gap: 10px;
     align-items: center;
     font-size: 1.5rem;
     font-weight: bold;
-    color: #22c3e6 !important;
+    color: #22c3e6;
     :hover {
-      color: #22c3e6 !important;
+      color: #22c3e6;
     }
   }
 
   &.logo-width-1 {
-    margin-right: 70px;
+    margin-right: 50px;
     a {
       img {
-        width: 65px;
+        width: 50px;
       }
     }
   }
@@ -374,7 +375,8 @@
         a {
           display: flex;
           align-items: center;
-          width: 50px;
+          width: 40px;
+          gap: 10px;
         }
       }
     }
@@ -781,8 +783,6 @@
       -webkit-transition: all 0.3s ease 0s;
       -o-transition: all 0.3s ease 0s;
       transition: all 0.3s ease 0s;
-      -moz-appearance: none;
-      -webkit-appearance: none;
       position: relative;
 
       &:focus {
@@ -1204,7 +1204,7 @@
       .mobile-header-logo {
         a {
           img {
-            width: 100px;
+            width: 40px;
           }
         }
       }

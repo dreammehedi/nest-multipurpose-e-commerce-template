@@ -6124,19 +6124,20 @@ h6.post-title {
 
 .logo a {
   display: flex;
+  gap: 10px;
   align-items: center;
   font-size: 1.5rem;
   font-weight: bold;
-  color: #22c3e6 !important;
+  color: #22c3e6;
 }
 .logo a :hover {
-  color: #22c3e6 !important;
+  color: #22c3e6;
 }
 .logo.logo-width-1 {
-  margin-right: 70px;
+  margin-right: 50px;
 }
 .logo.logo-width-1 a img {
-  width: 65px;
+  width: 50px;
 }
 
 .search-style-1 form {
@@ -6266,7 +6267,8 @@ h6.post-title {
 .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-top .mobile-header-logo a {
   display: flex;
   align-items: center;
-  width: 50px;
+  width: 40px;
+  gap: 10px;
 }
 .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-content-area .mobile-menu-wrap nav {
   height: 100%;
@@ -6595,8 +6597,6 @@ h6.post-title {
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  -moz-appearance: none;
-  -webkit-appearance: none;
   position: relative;
 }
 .search-style-2 form select:focus {
@@ -6972,7 +6972,7 @@ h6.post-title {
   align-items: center;
 }
 .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-top .mobile-header-logo a img {
-  width: 100px;
+  width: 40px;
 }
 .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-content-area {
   padding: 30px 30px 30px;
@@ -7507,9 +7507,11 @@ span.fi-rs-apps {
   color: #7e7e7e;
   display: block;
   line-height: 1.4;
+  transition: all 0.5s ease-in-out;
 }
 .main-menu > nav > ul > li ul.mega-menu li ul li a:hover {
   color: #22c3e6;
+  padding-left: 5px;
 }
 .main-menu > nav > ul > li ul.mega-menu li .menu-banner-wrap {
   overflow: hidden;
