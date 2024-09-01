@@ -6159,6 +6159,9 @@ h6.post-title {
 .logo a :hover {
   color: #22c3e6;
 }
+.logo a img {
+  max-width: 40px;
+}
 .logo.logo-width-1 {
   margin-right: 50px;
 }
