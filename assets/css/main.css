@@ -5874,6 +5874,7 @@ h6.post-title {
   border: 1px solid #ececec;
   border-radius: 15px;
   overflow: hidden;
+  text-align: center;
   transition: 0.2s;
   -moz-transition: 0.2s;
   -webkit-transition: 0.2s;
@@ -5889,6 +5890,7 @@ h6.post-title {
 }
 .vendor-wrap .vendor-img-action-wrap {
   padding: 25px 25px 0 25px;
+  text-align: center;
 }
 .vendor-wrap .vendor-img-action-wrap img {
   max-width: 144px;
@@ -5907,7 +5909,7 @@ h6.post-title {
   display: inline-block;
   padding: 6px 20px 6px 20px;
   border-radius: 4px;
-  background-color: #DEF9EC;
+  background-color: #def9ec;
   font-size: 14px;
   font-weight: 700;
   color: #22c3e6;
@@ -5952,7 +5954,7 @@ h6.post-title {
   display: inline-block;
   padding: 6px 20px 6px 20px;
   border-radius: 4px;
-  background-color: #DEF9EC;
+  background-color: #def9ec;
   font-size: 14px;
   font-weight: 700;
   color: #22c3e6;
