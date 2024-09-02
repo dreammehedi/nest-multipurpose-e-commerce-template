@@ -1641,6 +1641,10 @@ table.no-border {
 }
 .order_table table {
   .product-thumbnail img {
+    width: 100%;
+    min-width: 80px;
+    height: 80px;
+    object-fit: fill;
     max-width: 120px;
     border-radius: 15px;
     border: 1px solid $border-color;
