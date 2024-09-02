@@ -37,19 +37,87 @@ TABLE CONTENT
 @import url(plugins/slick.css);
 @import url(plugins/perfect-scrollbar.css);
 /*RESET*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -62,8 +130,17 @@ thead {
   font-weight: 600;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -71,16 +148,20 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: "";
   content: none;
 }
@@ -311,7 +392,9 @@ input[type=number]:focus,
   color: #fff !important;
 }
 
-.text-grey-5, .text-grey-5 a, .text-hover-grey-5:hover {
+.text-grey-5,
+.text-grey-5 a,
+.text-hover-grey-5:hover {
   color: #a2a2a2 !important;
 }
 
@@ -458,7 +541,8 @@ input[type=number]:focus,
   box-shadow: 0 0 14px 0 rgba(78, 42, 222, 0.03), 0 8px 18px 0 rgba(78, 42, 222, 0.09);
 }
 
-.box-shadow-outer-3, .box-hover-shadow-outer-3:hover {
+.box-shadow-outer-3,
+.box-hover-shadow-outer-3:hover {
   box-shadow: 0 5px 16px 0 rgba(118, 126, 173, 0.09);
 }
 
@@ -1134,7 +1218,7 @@ input {
   height: 64px;
   box-shadow: none;
   padding-left: 20px;
-  font-size: 16px;
+  font-size: 14px;
   width: 100%;
 }
 input:focus {
@@ -1301,9 +1385,9 @@ textarea:focus {
 
 /*contact form*/
 .contact-from-area .contact-form-style button {
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 500;
-  padding: 20px 40px;
+  padding: 12px 20px;
   color: #ffffff;
   border: none;
   background-color: #253d4e;
@@ -1324,7 +1408,7 @@ textarea:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
   padding-left: 20px;
-  font-size: 14px;
+  font-size: 14px !important;
   width: 100%;
 }
 .form-group input:focus {
@@ -2891,7 +2975,7 @@ input.qty-val {
 
 /*Map*/
 .leaflet-map {
-  height: 350px;
+  height: 500px;
   width: 100%;
 }
 
@@ -2902,7 +2986,8 @@ table {
   border-collapse: collapse;
   vertical-align: middle;
 }
-table td, table th {
+table td,
+table th {
   padding: 10px 20px;
   border: 1px solid #ececec;
   vertical-align: middle;
@@ -2914,7 +2999,8 @@ table thead > tr > th {
 table p {
   margin-bottom: 0;
 }
-table.clean td, table.clean th {
+table.clean td,
+table.clean th {
   border: 0;
   border-top: 1px solid #ececec;
 }
@@ -3013,11 +3099,13 @@ table .product-thumbnail img {
   z-index: 2;
 }
 
-.zoomContainer, .zoomWindow {
+.zoomContainer,
+.zoomWindow {
   z-index: 9999;
 }
 
-.single-product .zoomContainer, .single-product .zoomWindow {
+.single-product .zoomContainer,
+.single-product .zoomWindow {
   z-index: 99;
 }
 
@@ -6013,6 +6101,37 @@ h6.post-title {
 }
 .archive-header-3 .archive-header-3-inner {
   display: flex;
+}
+
+.contact-feedback-info-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.contact-feedback-info-wrapper .contact-feedback-info {
+  background: white;
+  box-shadow: 0px 4px 12px 10px #ddd;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.contact-feedback-info-wrapper .contact-feedback-info img {
+  width: 80px;
+  height: 80px;
+  object-fit: fill;
+}
+.contact-feedback-info-wrapper .contact-feedback-info p {
+  max-width: 500px;
+  margin: auto;
+}
+.contact-feedback-info-wrapper .contact-feedback-info:hover {
+  transform: scale(1.02);
 }
 
 /*LAYOUT -> HEADER STYLE*/
@@ -10634,6 +10753,9 @@ footer .hotline img {
   }
 }
 @media only screen and (max-width: 1024px) {
+  .contact-feedback-info-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
   .header-style-1 .main-categori-wrap {
     margin-right: 20px;
   }
@@ -11166,6 +11288,9 @@ footer .hotline img {
   }
   .modal-open .modal {
     padding-right: 0 !important;
+  }
+  .contact-feedback-info-wrapper {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 /*small phone*/

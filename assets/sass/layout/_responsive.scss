@@ -724,6 +724,9 @@
 }
 
 @media only screen and (max-width: 1024px) {
+  .contact-feedback-info-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
   .header-style-1 .main-categori-wrap {
     margin-right: 20px;
   }
@@ -1310,6 +1313,9 @@
 
   .modal-open .modal {
     padding-right: 0 !important;
+  }
+  .contact-feedback-info-wrapper {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
