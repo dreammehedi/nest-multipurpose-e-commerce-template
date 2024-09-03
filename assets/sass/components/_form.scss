@@ -363,7 +363,10 @@ label {
       }
       img {
         min-width: 80px;
+        height: 80px;
         max-width: 80px;
+        border-radius: 100%;
+        object-fit: cover;
       }
       .reply {
         opacity: 0;

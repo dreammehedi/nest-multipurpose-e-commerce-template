@@ -1558,7 +1558,10 @@ label {
 }
 .comments-area .comment-list .single-comment img {
   min-width: 80px;
+  height: 80px;
   max-width: 80px;
+  border-radius: 100%;
+  object-fit: cover;
 }
 .comments-area .comment-list .single-comment .reply {
   opacity: 0;
